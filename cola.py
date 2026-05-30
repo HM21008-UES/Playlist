@@ -16,3 +16,6 @@ class cola:
         self.frente = self.frente.siguiente # avance del frente
         if not self.frente: self.final = None # limpieza si la cola queda vacia
         return dato
+
+
+

@@ -28,3 +28,7 @@ class listaplaylist:
                 json.dump(datos, archivo, indent=4) # escritura en archivo externo
         except Exception as e:
             print(f"Error en la persistencia: {e}")
+
+
+
+

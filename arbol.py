@@ -19,3 +19,5 @@ class arbol:
         print("  " * nivel + nodo_actual.nombre) # impresion jerarquica
         for hijo in nodo_actual.hijos:
             self.mostrar(hijo, nivel + 1)
+
+
